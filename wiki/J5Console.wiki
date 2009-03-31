@@ -1,14 +1,41 @@
-#summary One-sentence summary of this page.
 #labels Featured
+===J5Console is a javascript console API for javascript web developer for both client and service interactive.===
 
-= Introduction =
+=Features:=
 
-Add your content here.
+==I. Browser supported:==
+ * Firefox: 2.x/3.0.x/3.1.x beta 3
+ * Internet explorer 6.0
+ * Safari 3.1
 
+==II. API Implemented:==
+ * *Window manager API implement*
+  * Move/drag and drop console window.
+  * Resize.
+  * Shade toggle enabled.
+ * *Commandline implement*
+  * Auto suggestion command using popup.
+  * Navigation suggestion command list.
+  * History implement.
+ * *Global shortcut supported.*
 
-= Details =
+==II. Current support shortcut:==
+ * *Commandline mode:*
+  * *Suggesstion poup is visible:*
+   * Tab/enter when suggestion poup is visible will apply selected suggestion command
+   * Arrows key will using for navigate select up/down command in suggestion popup.
+   * Escape will make suggestion popup invisible.
+  * *Suggesstion popup is not visible:*
+   * Tab will do analyze suggestion command and show the suggestion popup if suggestion commands are found.
+   * Enter will execute current command in the commandline.
+   * Arrows key will using for navigate history command.
+   * Escape will clear part of current command in commandline.
+ * *Global:*
+  * Toggle console window visible using Ctrl + <.> (Ctrl + dot key).
+Mac user using command key instead of Ctrl.
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+==TODO list:==
+ * Test and make compatible more browsers.
+ * Improve html dom inspector include DOM, css, html properties.
+ * Improve javascript inspector.
+ * Improve javascript editor embbed
